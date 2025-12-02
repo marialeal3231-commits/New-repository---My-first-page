@@ -1,0 +1,3 @@
+Creación de repositorio, subir proyecto y crear nueva rama.
+Inicia sesión en GitHub, haz clic en "New" o en el ícono de "+" en la esquina superior derecha, selecciona "New repository", asigna un nombre como "mi-pagina-web", elige público o privado, no marques la opción de inicializar con un README y haz clic en "Create repository”.
+Navega a la carpeta de tu proyecto en tu terminal, inicializa un repositorio Git, agrega todos los archivos al repositorio, realiza un primer commit y luego vincula tu repositorio local con el de GitHub usando la URL del repositorio remoto. Finalmente, empuja tus cambios a GitHub con ayuda de los comandos aprendidos.
