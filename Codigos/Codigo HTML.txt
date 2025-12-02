@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="Css/Style.CSS">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi pagina Web</title>
+</head>
+<body>
+
+<h1>!Bienvenidos al mundo de Maria!</h1>
+    <img src="Img/Mi foto.jpeg" alt="Foto de Perfil" width="200">
+
+<h2>Introducción</h2>
+    <p>
+        ¡Hola! Mi nombre es Maria Fernanda Macia Leal y soy un aspirante a desarrollador web. 
+        Este es el ejercicio de la Actividad 1 para crear la estructura básica de una página web. 
+        Me apasiona la tecnología y estoy aprendiendo HTML, CSS y JavaScript para construir sitios web increíbles.
+    </p>
+
+<h2>Perfil Profesional</h2>
+    <p>
+        Tengo experiencia Profesional orientada al servicio con habilidades sólidas en comunicación, resolución de problemas y empatía. Experiencia en brindar atención personalizada, gestionar solicitudes con eficiencia y garantizar la satisfacción del cliente en cada interacción. Comprometida con la mejora continua y la creación de experiencias positivas que fortalezcan la relación entre la empresa y sus usuarios. Igualmente, ¡programación básica!.
+        Mi objetivo es seguir creciendo en el mundo del desarrollo web.
+    </p>
+
+<h2>Pasatiempos Favoritos</h2>
+    <ul>
+        <li>Leer ciencia ficción y fantasía.</li>
+        <li>Montar bicicleta y ejercicio de pesas.</li>
+        <li>Aprender un nuevo idioma (ej: Frances).</li>
+    </ul>
+    
+<h2>Plan de Desarrollo Personal (Prioridad)</h2>
+    <ol>
+        <li>Complementar mis estudios a nivel profesional.</li>
+        <li>Actualizar el portafolio de proyectos para buscar nuevas oportunidades.</li>
+        <li>Realizar 2 horas de actividad física diaria con levantamiento de pesas.</li>
+        <li>Organizar y limpiar el espacio de trabajo.</li>
+        <li>Realizar horas extras en el trabajo para entrenamiento de nueva wave.</li>
+        <li>Cuidar a mis sobrinos toda la tarde para jugar un rato.</li>
+        <li>Realizar dos horas de actividad fisica con natacion avanzada.</li>
+    </ol>
+
+<h2>Horario de Actividades Semanal</h2>
+    <table border="1" cellspacing="5" cellpadding="10">
+        <thead>
+            <tr>
+                <th>Día de la Semana</th>
+                <th>Actividad Planificada</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Lunes</td>
+                <td>Complementar mis estudios a nivel profesional.</td>
+            </tr>
+            <tr>
+                <td>Martes</td>
+                <td>Actualizar el portafolio de proyectos para buscar nuevas oportunidades.</td>
+            </tr>
+            <tr>
+                <td>Miércoles</td>
+                <td>Realizar 2 horas de actividad física diaria con levantamiento de pesas.</td>
+            </tr>
+            <tr>
+                <td>Jueves</td>
+                <td>Organizar y limpiar el espacio de trabajo.</td>
+            </tr>
+            <tr>
+                <td>Viernes</td>
+                <td>Realizar horas extras en el trabajo para entrenamiento de nueva wave.</td>
+            </tr>
+            <tr>
+                <td>Sábado</td>
+                <td>Cuidar a mis sobrinos toda la tarde para jugar un rato.</td>
+            </tr>
+                <td>Domingo</td>
+                <td>Realizar dos horas de actividad fisica con natacion avanzada.</td>
+            </tr>
+        </tbody>
+    </table>
+
+<h2>Mis Redes Sociales</h2>
+    <ul>
+        <li>
+            <a href="https://www.linkedin.com/in/maria-fernanda-macia-leal-068760253/" target="_blank">LinkedIn</a>
+        </li>
+        <li>
+            <a href="https://github.com/[tu-perfil]" target="_blank">GitHub</a>
+        </li>
+        <li>
+            <a href="https://www.instagram.com/marifm_24?igsh=MXNuMHU2MnNrdHVueg==" target="_blank">Instagram</a>
+        </li>
+    </ul>
+
+<h2>Contáctame</h2>
+
+    <form action="/submit-form" method="POST">
+        
+        <div>
+            <label for="nombre">Nombre Completo:</label><br>
+            <input type="text" id="nombre" name="nombre" required>
+        </div>
+        
+        <div>
+            <label for="email">Correo Electrónico:</label><br>
+            <input type="email" id="email" name="email" required>
+        </div>
+        
+        <div>
+            <label for="motivo">Motivo de Contacto o Mensaje:</label><br>
+            <textarea id="motivo" name="motivo" rows="4" cols="50" required></textarea>
+        </div>
+        
+        <div>
+            <button type="submit">Enviar Mensaje</button>
+        </div>
+        
+    </form>
+    
+</body>
+</html>
